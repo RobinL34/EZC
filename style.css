@@ -1,0 +1,153 @@
+/* Reset du style par défaut du navigateur*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Style général */
+
+* {
+font-family: 'Cabin', sans-serif;
+}
+
+.flux {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+/* Début du Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255,140,31);
+    height: 65px;
+    padding-top: 5;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+}
+
+.list-links {
+    display: flex;
+    margin-left: 600px;
+    padding-top: 0px;
+    column-gap: 20px;
+    font-size: x-large;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.social-links img {
+    width: 35px;
+    height: auto;
+
+}
+
+/* Fin du Header */
+
+/* Articles top */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.flex-container-top {
+    display: flex;
+}
+
+.article-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.article-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    flex: 0.5;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.article-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    flex: 0.5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* End articles top */
+
+.flex-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.article-4 {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.article-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    border: solid;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.flex-other {
+    display: flex;
+}
+
+.article-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.baba {
+    width: 100px;
+    height: 100px;
+}
